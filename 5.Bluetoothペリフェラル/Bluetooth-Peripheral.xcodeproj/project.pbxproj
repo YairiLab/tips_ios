@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6BE09B31FFA63E500D0B5ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE09B21FFA63E500D0B5ED /* AppDelegate.swift */; };
+		E6BE09B51FFA63E500D0B5ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE09B41FFA63E500D0B5ED /* ViewController.swift */; };
+		E6BE09B81FFA63E500D0B5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BE09B61FFA63E500D0B5ED /* Main.storyboard */; };
+		E6BE09BA1FFA63E500D0B5ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6BE09B91FFA63E500D0B5ED /* Assets.xcassets */; };
+		E6BE09BD1FFA63E500D0B5ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BE09BB1FFA63E500D0B5ED /* LaunchScreen.storyboard */; };
+		E6BE09C51FFA645D00D0B5ED /* BTPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE09C41FFA645D00D0B5ED /* BTPeripheral.swift */; };
+		E6BE09C71FFA64A600D0B5ED /* DebugInfoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE09C61FFA64A600D0B5ED /* DebugInfoDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6BE09AF1FFA63E500D0B5ED /* Bluetooth-Peripheral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bluetooth-Peripheral.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6BE09B21FFA63E500D0B5ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6BE09B41FFA63E500D0B5ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6BE09B71FFA63E500D0B5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6BE09B91FFA63E500D0B5ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6BE09BC1FFA63E500D0B5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6BE09BE1FFA63E500D0B5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6BE09C41FFA645D00D0B5ED /* BTPeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTPeripheral.swift; sourceTree = "<group>"; };
+		E6BE09C61FFA64A600D0B5ED /* DebugInfoDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugInfoDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6BE09AC1FFA63E500D0B5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6BE09A61FFA63E500D0B5ED = {
+			isa = PBXGroup;
+			children = (
+				E6BE09B11FFA63E500D0B5ED /* Bluetooth-Peripheral */,
+				E6BE09B01FFA63E500D0B5ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6BE09B01FFA63E500D0B5ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6BE09AF1FFA63E500D0B5ED /* Bluetooth-Peripheral.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6BE09B11FFA63E500D0B5ED /* Bluetooth-Peripheral */ = {
+			isa = PBXGroup;
+			children = (
+				E6BE09B21FFA63E500D0B5ED /* AppDelegate.swift */,
+				E6BE09B41FFA63E500D0B5ED /* ViewController.swift */,
+				E6BE09B61FFA63E500D0B5ED /* Main.storyboard */,
+				E6BE09B91FFA63E500D0B5ED /* Assets.xcassets */,
+				E6BE09BB1FFA63E500D0B5ED /* LaunchScreen.storyboard */,
+				E6BE09BE1FFA63E500D0B5ED /* Info.plist */,
+				E6BE09C41FFA645D00D0B5ED /* BTPeripheral.swift */,
+				E6BE09C61FFA64A600D0B5ED /* DebugInfoDelegate.swift */,
+			);
+			path = "Bluetooth-Peripheral";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6BE09AE1FFA63E500D0B5ED /* Bluetooth-Peripheral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6BE09C11FFA63E500D0B5ED /* Build configuration list for PBXNativeTarget "Bluetooth-Peripheral" */;
+			buildPhases = (
+				E6BE09AB1FFA63E500D0B5ED /* Sources */,
+				E6BE09AC1FFA63E500D0B5ED /* Frameworks */,
+				E6BE09AD1FFA63E500D0B5ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bluetooth-Peripheral";
+			productName = "Bluetooth-Peripheral";
+			productReference = E6BE09AF1FFA63E500D0B5ED /* Bluetooth-Peripheral.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6BE09A71FFA63E500D0B5ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Yairi Lab";
+				TargetAttributes = {
+					E6BE09AE1FFA63E500D0B5ED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E6BE09AA1FFA63E500D0B5ED /* Build configuration list for PBXProject "Bluetooth-Peripheral" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6BE09A61FFA63E500D0B5ED;
+			productRefGroup = E6BE09B01FFA63E500D0B5ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6BE09AE1FFA63E500D0B5ED /* Bluetooth-Peripheral */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6BE09AD1FFA63E500D0B5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BE09BD1FFA63E500D0B5ED /* LaunchScreen.storyboard in Resources */,
+				E6BE09BA1FFA63E500D0B5ED /* Assets.xcassets in Resources */,
+				E6BE09B81FFA63E500D0B5ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6BE09AB1FFA63E500D0B5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BE09C71FFA64A600D0B5ED /* DebugInfoDelegate.swift in Sources */,
+				E6BE09C51FFA645D00D0B5ED /* BTPeripheral.swift in Sources */,
+				E6BE09B51FFA63E500D0B5ED /* ViewController.swift in Sources */,
+				E6BE09B31FFA63E500D0B5ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6BE09B61FFA63E500D0B5ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6BE09B71FFA63E500D0B5ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6BE09BB1FFA63E500D0B5ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6BE09BC1FFA63E500D0B5ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6BE09BF1FFA63E500D0B5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6BE09C01FFA63E500D0B5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6BE09C21FFA63E500D0B5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ9YN4K3N2;
+				INFOPLIST_FILE = "Bluetooth-Peripheral/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.yairilab.Bluetooth-Peripheral";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6BE09C31FFA63E500D0B5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ9YN4K3N2;
+				INFOPLIST_FILE = "Bluetooth-Peripheral/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.yairilab.Bluetooth-Peripheral";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6BE09AA1FFA63E500D0B5ED /* Build configuration list for PBXProject "Bluetooth-Peripheral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BE09BF1FFA63E500D0B5ED /* Debug */,
+				E6BE09C01FFA63E500D0B5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6BE09C11FFA63E500D0B5ED /* Build configuration list for PBXNativeTarget "Bluetooth-Peripheral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6BE09C21FFA63E500D0B5ED /* Debug */,
+				E6BE09C31FFA63E500D0B5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6BE09A71FFA63E500D0B5ED /* Project object */;
+}
