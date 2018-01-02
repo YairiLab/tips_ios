@@ -29,5 +29,5 @@ iOSでBluetoothを使うときは、CoreBluetoothを`import`する。
 返信するだけでなく、
 自分からセントラルへ通知も送れる。
 
-## Reference
+## 参考
 - [Core BluetoothのApple公式ドキュメント](https://developer.apple.com/jp/documentation/CoreBluetoothPG.pdf)
