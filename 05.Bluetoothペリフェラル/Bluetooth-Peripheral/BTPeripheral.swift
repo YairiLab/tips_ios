@@ -32,6 +32,17 @@ class BTPeripheral: NSObject, CBPeripheralManagerDelegate {
         _manager.delegate = self
     }
     
+    func startAdvertising() {
+        let data = [CBAdvertisementDataServiceUUIDsKey: [_servUuid]]
+        _manager.startAdvertising(data)
+    }
+    
+    func stopAdvertising() {
+        _manager.stopAdvertising()
+    }
+
+    // CBPeripheralManagerがインスタンス化され、状態が変わったら呼ばれる。
+    // これができていないと、startAdvertising()してもダメ。
     func peripheralManagerDidUpdateState(_ peripheral: CBPeripheralManager) {
         _manager.add(_service)
         startAdvertising()
@@ -57,12 +68,4 @@ class BTPeripheral: NSObject, CBPeripheralManagerDelegate {
         _manager.respond(to: req, withResult: .success)
     }
 
-    private func startAdvertising() {
-        let data = [CBAdvertisementDataServiceUUIDsKey: [_servUuid]]
-        _manager.startAdvertising(data)
-    }
-    
-    private func stopAdvertising() {
-        _manager.stopAdvertising()
-    }
 }
