@@ -38,7 +38,7 @@ class BTCentral: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate {
     
     // インスタンス化して、ペリフェラルの状態が変わったら呼ばれる
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
-        if central.state == CBManagerState.poweredOn {
+        if central.state == .poweredOn {
             _debugDelegate.show("セントラルが準備完了")
         } else {
             _debugDelegate.show("何か異常")
